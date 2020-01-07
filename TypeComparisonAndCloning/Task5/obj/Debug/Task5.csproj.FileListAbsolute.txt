@@ -1,0 +1,5 @@
+E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task5\bin\Debug\Task5.dll
+E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task5\bin\Debug\Task5.pdb
+E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task5\obj\Debug\Task5.csprojAssemblyReference.cache
+E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task5\obj\Debug\Task5.dll
+E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task5\obj\Debug\Task5.pdb
