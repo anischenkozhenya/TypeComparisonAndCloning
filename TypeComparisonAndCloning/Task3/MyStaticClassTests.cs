@@ -18,7 +18,19 @@ namespace Task3
         [Test]
         public void test3()
         {
-            Assert.AreEqual("www.example.com?key=newValue", MyStaticClass.AddOrChangeUrlParameter("www.example.com?key=oldValue", "key=newValue"));
+            Assert.AreEqual("www.example.com?key=newValue1", MyStaticClass.AddOrChangeUrlParameter("www.example.com?key=oldValue", "key=newValue1"));
+        }
+        [Test]
+        public void test4()
+        {
+            Assert.AreEqual("www.example.com", MyStaticClass.AddOrChangeUrlParameter("www.example.com?", ""));
+        }
+        [Test]
+        public void test5()
+        {
+            Assert.Throws<System.ArgumentNullException>(() => MyStaticClass.AddOrChangeUrlParameter("", null));
+            Assert.Throws<System.ArgumentNullException>(() => MyStaticClass.AddOrChangeUrlParameter(null, ""));
+            Assert.Throws<System.ArgumentNullException>(() => MyStaticClass.AddOrChangeUrlParameter(null, null));
         }
     }
 }
