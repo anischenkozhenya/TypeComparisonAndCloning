@@ -1,4 +1,0 @@
-E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task6\bin\Debug\Task6.dll
-E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task6\bin\Debug\Task6.pdb
-E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task6\obj\Debug\Task6.dll
-E:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task6\obj\Debug\Task6.pdb

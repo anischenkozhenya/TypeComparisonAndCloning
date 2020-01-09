@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -55,8 +55,8 @@ namespace Task3
                 {
                     link.Append(i.Key + "=" + i.Value + "&");
                 }
-                
-                link.Remove(link.Length-1,1);
+
+                link.Remove(link.Length - 1, 1);
             }
             return link.ToString();
         }

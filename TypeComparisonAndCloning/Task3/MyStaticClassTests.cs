@@ -1,4 +1,4 @@
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace Task3
 {
@@ -9,7 +9,7 @@ namespace Task3
         public void AddNewParameterToUrlWithoutParameter()
         {
             Assert.AreEqual("www.example.com?key=value", MyStaticClass.AddOrChangeUrlParameter("www.example.com", "key=value"));
-            }
+        }
         [Test]
         public void AddNewParameterToUrlWithParameter()
         {
@@ -34,6 +34,6 @@ namespace Task3
             Assert.Throws<System.ArgumentNullException>(() => MyStaticClass.AddOrChangeUrlParameter("", null));
             Assert.Throws<System.ArgumentNullException>(() => MyStaticClass.AddOrChangeUrlParameter(null, ""));
             Assert.Throws<System.ArgumentNullException>(() => MyStaticClass.AddOrChangeUrlParameter(null, null));
-        }        
+        }
     }
 }
