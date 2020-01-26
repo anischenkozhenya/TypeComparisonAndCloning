@@ -1,0 +1,9 @@
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\bin\Debug\Task2.dll
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\bin\Debug\Task2.pdb
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\bin\Debug\nunit.framework.dll
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\bin\Debug\nunit.framework.pdb
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\bin\Debug\nunit.framework.xml
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\obj\Debug\Task2.csproj.CopyComplete
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\obj\Debug\Task2.dll
+e:\epamrep\TypeComparisonAndCloning\TypeComparisonAndCloning\Task2\obj\Debug\Task2.pdb
