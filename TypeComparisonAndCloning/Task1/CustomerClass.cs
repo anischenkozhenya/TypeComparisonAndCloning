@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using System.Threading;
 
 //Customer class has three public properties - Name(string),
 //ContactPhone(string) and Revenue(decimal).
@@ -38,7 +37,11 @@ namespace Task1
         }
         public string GetNameAndRevenue()
         {
-            return string.Format("{0}, {1}", Name,Revenue);
+            return string.Format("{0}, {1}", Name, Revenue.ToString("N", f));
+        }
+        public string GetOnlyRevenue()
+        {
+            return string.Format("{0}", Revenue.ToString("N", f));
         }
     }
 }

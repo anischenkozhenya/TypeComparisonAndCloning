@@ -40,5 +40,28 @@ namespace Task1
 
             Assert.AreEqual(expected, actual);
         }
+        [Test]
+        public void NameAndRevenue()
+        {
+            var instanse = new CustomerClass();
+            instanse.Name = "Jeffrey Richter";
+            instanse.Revenue = 1000000;
+
+            string actual = instanse.GetNameAndRevenue();
+            string expected = "Jeffrey Richter, 1,000,000.00";
+
+            Assert.AreEqual(expected, actual);
+        }
+        [Test]
+        public void Revenue()
+        {
+            var instanse = new CustomerClass();
+            instanse.Revenue = 1000000;
+
+            string actual = instanse.GetOnlyRevenue();
+            string expected = "1,000,000.00";
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
